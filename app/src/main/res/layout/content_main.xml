@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flexbox_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:alignContent="flex_start"
+    app:alignItems="flex_start"
+    app:flexWrap="wrap"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:showDivider="beginning|middle"
+    tools:context="neu.cn.myflexboxlayout.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textview_1"
+        style="@style/FlexItem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/textview_2"
+        style="@style/FlexItem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/textview_3"
+        style="@style/FlexItem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="3" />
+
+</com.google.android.flexbox.FlexboxLayout>
