@@ -8,6 +8,6 @@ FlexboxLayout弹性布局中所支持的属性
     * row_reverse：主轴为水平方向，起点在右端；
     * column：主轴为垂直方向，起点在上沿；
     * column_reverse：主轴为垂直方向，起点在下沿；
-    * 其它属性默默探索吧！
+* 其它属性可以看完整的官方展示，这里只是手写一下，便于理解学习这个弹性布局；
 
     ![Flex Direction explanation](/assets/flex-direction.gif)
